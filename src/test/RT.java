@@ -21,4 +21,9 @@ public class RT {
 		Assert.assertEquals(TestMain.substr("Richard", 2, 3),"ch");
 	}
 
+	@Test
+	@Before
+	public void test2(){
+		Assert.assertEquals(TestMain.substr("Richard", 0, 3),"Rich");
+	}
 }
